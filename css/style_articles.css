@@ -1,0 +1,194 @@
+header {
+    text-align: center;
+    width: 100%;
+  }
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  .block {
+    background-color: rgba(128, 128, 128, 0.447);
+    text-align: center;
+  }
+  .block h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .block img {
+    width: 50px;
+  }
+  .block nav {
+    padding: 10px 50px;
+  }
+  .block ul {
+    list-style: none;
+  }
+  .block ul li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .block ul li a {
+    cursor: pointer;
+  }
+  .mper {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  dl {
+    display: flexbox;
+    grid-template-columns: auto auto;
+    gap: 5px 20px;
+  }
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-left: 10px;
+  }
+  .mper_class {
+    padding: 10px 100px;
+  }
+  .OOP_class {
+    padding: 10px 100px;
+    width: 75%;
+    float: left;
+  }
+  .opp-img {
+    width: 450px;
+    border-radius: 60%;
+    float: right;
+    box-shadow: 2px 2px 20px 2px #000;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  .container .block-1 {
+    text-align: center;
+  }
+  .container .block-1 .gray {
+    width: 300px;
+    height: 150px;
+    background-color: #adadad;
+    text-align: center;
+  }
+  .article-list {
+    background: #9f9f9f;
+  }
+  .article-list p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .article-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+  }
+  .article-list ul li {
+    padding: 10px;
+    background: #9f9f9f;
+    border-bottom: 1px solid #ddd;
+  }
+  .article-list ul li:hover {
+    background: #89c596;
+  }
+  .article-list ul li:last-child {
+    border-bottom: none;
+  }
+  .article-list ul li a {
+    all: unset;
+    cursor: pointer;
+  }
+  .headers {
+    display: flex;
+    background-color: #9f9f9f;
+    margin: 0;
+    padding: 0;
+  }
+  .headers ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+  }
+  .headers ul li {
+    padding: 10px;
+    background: #9f9f9f;
+  }
+  .headers ul li a {
+    all: unset;
+    cursor: pointer;
+  }
+  main {
+    background-color: #5e5e5e0e;
+  }
+  .artical-content {
+    margin: 10px;
+    width: 40%;
+    height: 40%;
+    background-color: #ddd;
+    text-align: center;
+  }
+  .artical-content h4 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .artical-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+  }
+  .artical-content ul li {
+    padding: 3px;
+  }
+  .artical-content .margin_nav {
+    margin-top: 20px;
+  }
+  .artical-content ol li a {
+    transition: font-size 0.3s;
+  }
+  .artical-content ol li a:hover {
+    font-size: 1.2em;
+  }
+  #sectionTwo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+  }
+  #sectionTwo h2 {
+    text-align: center;
+  }
+  #sectionTwo p {
+    text-align: justify;
+  }
+  #sectionThree {
+    padding: 20px 50px;
+    align-items: center;
+    text-align: justify;
+  }
+  .image-caption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: 60px;
+  }
+  .footer a {
+    color: aqua;
+    cursor: pointer;
+  }
+  .footer p {
+    margin: 0;
+  }
+  

@@ -1,0 +1,122 @@
+header {
+    text-align: center;
+    width: 100%;
+  }
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  .block {
+    background-color: rgba(128, 128, 128, 0.447);
+    text-align: center;
+  }
+  .block h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .block img {
+    width: 50px;
+  }
+  .block nav {
+    padding: 10px 50px;
+  }
+  .block ul {
+    list-style: none;
+  }
+  .block ul li {
+    display: inline-block;
+    margin: 5px;
+  }
+  .block ul li a {
+    cursor: pointer;
+  }
+  .mper {
+    padding: 10px 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  .container .block-1 {
+    text-align: center;
+  }
+  .container .block-1 .gray {
+    border-radius: 12%;
+    width: 300px;
+    height: 150px;
+    background-color: #d4d4d4;
+    text-align: center;
+    border-bottom: 3px solid #8f4949;
+  }
+  .article-list {
+    background: #9f9f9f;
+  }
+  .article-list p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .article-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+  }
+  .article-list ul li {
+    padding: 10px;
+    background: #9f9f9f;
+    border-bottom: 1px solid #ddd;
+  }
+  .article-list ul li:hover {
+    background: #89c596;
+  }
+  .article-list ul li:last-child {
+    border-bottom: none;
+  }
+  .article-list ul li a {
+    all: unset;
+    cursor: pointer;
+  }
+  .headers {
+    display: flex;
+    background-color: #9f9f9f;
+    margin: 0;
+    padding: 0;
+  }
+  .headers ul {
+    list-style: none;
+    padding: 0;
+    margin: 2px;
+  }
+  .headers ul li {
+    padding: 10px;
+    background: #9f9f9f;
+  }
+  .headers ul li a {
+    all: unset;
+    cursor: pointer;
+  }
+  main {
+    background-color: #5e5e5e0e;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: 60px;
+  }
+  .footer a {
+    color: aqua;
+    cursor: pointer;
+  }
+  .footer a img {
+    width: 50px;
+  }
+  .footer p {
+    margin: 0;
+  }
+  
